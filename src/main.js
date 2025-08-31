@@ -4,8 +4,8 @@ import '@fortawesome/fontawesome-free/css/all.css' // Ensure your project is cap
 
 import App from './App.vue'
 import router from './router'
-import 'vuetify/styles'
 import '../src/style.css'
+import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import { aliases, fa } from 'vuetify/iconsets/fa'
 import * as components from 'vuetify/components'
