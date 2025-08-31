@@ -14,7 +14,7 @@ const sideBarItems = [
 <template>
   <v-card>
     <v-layout>
-      <v-navigation-drawer>
+      <v-navigation-drawer expand-on-hover permanent rail="">
         <v-list>
           <v-list-item
             prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
