@@ -1,0 +1,21 @@
+:root {
+  --PrimaryFontFamily: 'Inter', sans-serif;
+  --PrimaryColor: #1570ef;
+}
+
+body,
+html {
+  font-family: var(--PrimaryFontFamily);
+  background-color: #f0f1f3;
+}
+
+.v-list-item-title {
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+}
+
+.v-field--variant-outlined {
+  --v-field-border-color: #ff0000 !important; /* default */
+  --v-field-border-color-hover: #00ff00 !important; /* on hover */
+  --v-field-border-color-focused: #0000ff !important; /* on focus */
+}
